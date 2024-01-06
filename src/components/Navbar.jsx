@@ -4,8 +4,7 @@ import {
   FaTimes,
   FaGithub,
   FaLinkedin,
-  FaFacebook,
-  FaLinkedinIn,
+  FaTwitter
 } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import Resume from './Karteek_Resume.pdf';
@@ -125,9 +124,9 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='mailto:karteekkarteek007@gmail.com?'
+              href='https://twitter.com/Karteek_02'
             >
-              Email <HiOutlineMail size={30} />
+              Twitter <FaTwitter size={30} />
             </a>
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
